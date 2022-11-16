@@ -5,6 +5,7 @@ Code for reading forms responses was adapted heavily from [here](https://gist.gi
 Most of the dependencies were acquired with maven so have fun.
 
 
+run on form submit
 ```
 function runWebhook(e){
   var time = e.response.getTimestamp().toString();
