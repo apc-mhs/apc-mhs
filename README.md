@@ -8,8 +8,6 @@ Most of the dependencies were acquired with maven so have fun.
 run on form submit
 ```
 function runWebhook(e){
-  var time = e.response.getTimestamp().toString();
-  Logger.log(time)
   UrlFetchApp.fetch("http:// your ip:port/fire")
 }
 ```
